@@ -25,23 +25,24 @@ Dummy data included for testing UI
 
 ## 📂 Project Structure
 
+```bash
 project_web3.0-main/
-├── client/ # React + Vite frontend
-│ ├── index.html # Root HTML file
-│ ├── package.json # Frontend dependencies & scripts
-│ └── src/ # Source code
-│ ├── App.jsx # Main app layout
-│ ├── main.jsx # React entry, wraps in Tx Provider
-│ ├── components/ # UI parts (Navbar, Welcome, Services, etc.)
-│ ├── context/ # TransactionContext (ethers.js logic)
-│ └── utils/ # ABI, contract constants, helpers
+├── client/                 # React + Vite frontend
+│   ├── index.html          # Root HTML file
+│   ├── package.json        # Frontend dependencies & scripts
+│   └── src/                # Source code
+│       ├── App.jsx         # Main app layout
+│       ├── main.jsx        # React entry, wraps in Tx Provider
+│       ├── components/     # UI parts (Navbar, Welcome, Services, etc.)
+│       ├── context/        # TransactionContext (ethers.js logic)
+│       └── utils/          # ABI, contract constants, helpers
 │
-├── smart_contract/ # Solidity + Hardhat workspace
-│ ├── contracts/ # Core smart contract
-│ │ └── Transactions.sol # Logs & stores transactions
-│ ├── scripts/ # Deployment script
-│ ├── test/ # Contract test samples
-│ └── hardhat.config.js # Hardhat setup
+├── smart_contract/         # Solidity + Hardhat workspace
+│   ├── contracts/          # Core smart contract
+│   │   └── Transactions.sol # Logs & stores transactions
+│   ├── scripts/            # Deployment script
+│   ├── test/               # Contract test samples
+│   └── hardhat.config.js   # Hardhat setup
 
 ⚙️ Smart Contract
 
