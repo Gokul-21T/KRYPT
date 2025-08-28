@@ -42,8 +42,8 @@ project_web3.0-main/
 │   │   └── Transactions.sol # Logs & stores transactions
 │   ├── scripts/            # Deployment script
 │   ├── test/               # Contract test samples
-│   └── hardhat.config.js   # Hardhat setup
-
+│   └── hardhat.config.js   # Hardhat setup 
+```
 ⚙️ Smart Contract
 
 File: smart_contract/contracts/Transactions.sol
